@@ -1,3 +1,7 @@
+body{
+    width: 100%;
+}
+
 nav{
     background-color: #073C64;
     border-bottom: 2px solid #1A2C43;
