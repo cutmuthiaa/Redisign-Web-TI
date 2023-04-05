@@ -119,6 +119,13 @@ footer{
     
     justify-content: center;
     align-items: center;
+    font-size: 14px;
+    color: white;
+}
+
+.alamat{
+    font-size: 14px;
+    color: white;
 }
 
 footer .vertical-line{
