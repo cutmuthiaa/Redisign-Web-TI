@@ -1,0 +1,128 @@
+nav{
+    background-color: #073C64;
+    border-bottom: 2px solid #1A2C43;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar-brand .vertical-line{
+    width: 3px;
+    height: 65px;
+    margin-left: 10px;
+    background-color: #FDCB2C;
+}
+
+.navbar-brand .ti h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+}
+
+.nav-item{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.inpage{
+    color: #FDCB2C !important;
+}
+
+.nav-link:hover{
+    color: #FDCB2C !important;
+}
+
+.hero{
+  background-size: cover;
+  min-height: 350px;
+}
+
+.kiri{
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.kiri .informatika{
+    margin-left: 50px;
+}
+
+.kiri h4{
+    font-size: 24px;
+}
+
+.kiri p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.kanan{
+    background-color: white;
+    height: 350px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item img{
+    width: 730px;
+    height: 320px;
+    border-radius: 40px;
+}
+
+.judul{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.judul h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1A2C43;
+}
+.horizontal_line{
+    height: 2px;
+    margin-right: 100px;
+    margin-left: 20px;
+    background-color: #FDCB2C;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: #073C64;
+    width: 100%;
+    height: 192px;
+}
+
+.kontak{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+footer .vertical-line{
+    background-color: #FDCB2C;
+    height: 3px;
+    width: 100px;
+
+}
+
+.akreditasi img{
+    width: 200px;
+    height: 7   0px;
+}
