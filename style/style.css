@@ -79,6 +79,7 @@ nav{
 .kanan{
     background-color: white;
     height: 350px;
+    max-width: 100%;
     border-radius: 40px;
     display: flex;
     justify-content: center;
@@ -86,8 +87,8 @@ nav{
 }
 
 .carousel-item img{
-    width: 100%;
     height: 320px;
+    width: 100%;
     border-radius: 40px;
 }
 
@@ -107,6 +108,55 @@ nav{
     margin-left: 20px;
     background-color: #FDCB2C;
 }
+
+
+.img-wrapper{
+    max-width: 100%;
+    height: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.img-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (min-width : 576px){
+
+    .berita{
+        display: flex;
+
+    }
+
+    .berita .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
+
+    .img-wrapper{
+        height: 23vw;
+    
+    }
+    
+}
+
+.berita{
+    padding: 1em;
+
+}
+
+.card{
+    margin: 0.5em;
+}
+
+
+
+
+
 
 footer{
     margin-top: 40px;
@@ -135,7 +185,3 @@ footer .vertical-line{
 
 }
 
-.akreditasi img{
-    width: 200px;
-    height: 7   0px;
-}
