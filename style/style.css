@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 body{
     width: 100%;
 }
@@ -112,7 +115,7 @@ nav{
 
 .img-wrapper{
     max-width: 100%;
-    height: 65vw;
+    height: 200px !important;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -122,6 +125,7 @@ nav{
 .img-wrapper img{
     max-width: 100%;
     max-height: 100%;
+    border-radius: 2% !important;
 }
 
 @media screen and (min-width : 576px){
@@ -144,18 +148,42 @@ nav{
     
 }
 
+@media screen and (max-width : 576px) {
+    .kanan{
+        height: 200px;
+    }
+
+    .carousel-item img{
+        height: 180px;
+       
+    }
+}
+
 .berita{
     padding: 1em;
 
 }
 
 .card{
+    border-radius: 4% !important;
     margin: 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, .18);
+
 }
 
+.tombol-prev, .tombol-next {
+    background-color: #e1e1e1 !important;
+    width: 60px !important;
+    height: 60px;
+    border-radius: 50%;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    opacity: .5 !important;
+}
 
-
-
+.tombol-prev:hover, .tombol-next:hover{
+    opacity: 1 !important;
+}
 
 
 footer{
